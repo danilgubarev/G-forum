@@ -16,13 +16,13 @@
     <header>
 
         <div class="wrap-logo">
-            <a href="#" class="logo">Логотип сайта</a>
+            <a href="{% url 'my_interests_view' %}" class="logo">Логотип сайта</a>
         </div>
 
         <nav>
-            <a class="active" href="#home">Главная</a>
-            <a href="#">Контакты</a>
-            <a href="#">О нас</a>
+            <a class="active" href="#home">My interests</a>
+            <a href="#">Notifications</a>
+            <a href="{% url 'create_articles:add_articles_view' %}">write an article</a>
         </nav>
 
     </header>

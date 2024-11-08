@@ -43,7 +43,8 @@ INSTALLED_APPS = [
 
     'my_interests',
     'auth_reg',
-    'notifications'
+    'notifications',
+    'create_articles',
 ]
 
 MIDDLEWARE = [
